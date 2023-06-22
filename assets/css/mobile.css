@@ -1059,6 +1059,33 @@ padding: 100px 0;
   padding-right: 0px;
   padding: 0 70px;
 }
+
+
+.home-banner-section{
+  padding-top: 5em !important;
+}
+
+.main-header{
+  height: 13vh !important;
+}
+.home-header-section, .sub-header-section{
+  height: 60vh ;
+
+}
+.banner-btn{
+  padding-top: 1em !important;
+}
+
+.carousel-indicators{
+  display: none !important;
+}
+
+#red-car{
+   margin-top: -2em !important;
+  
+  height: 70% !important;
+}
+
 .autorix-text {
   margin-left: 16px;
   margin-bottom: 16px;
@@ -2068,6 +2095,18 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+
+  
+.home-banner-section{
+  padding-top: 5em !important;
+}
+
+.main-header{
+  height: 13vh !important;
+}
+.navbar{
+
+}
 h1 {
   font-size: 40px;
   line-height: 44px;
@@ -2941,6 +2980,18 @@ h2 {
 @media screen and (max-width: 575px) {
 .main-header {
   padding: 40px 14px 0 40px;
+}
+
+
+.home-banner-section{
+  padding-top: 5em !important;
+}
+
+.main-header{
+  height: 13vh !important;
+}
+.navbar{
+
 }
 .sub-header-section .sub-banner-section .banner-btn .about-margin:before {
   width: 40px;

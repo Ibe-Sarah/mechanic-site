@@ -137,7 +137,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                     </div>
                     <h6 >Services</h6>
 
-                    <div  style="display: flex; padding-left: 6em; position: relative; justify-content: space-evenly;">
+                    <div class="desktop" style="display: flex; padding-left: 6em; position: relative; justify-content: space-evenly;">
 
                         <div >
                     <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex;">
@@ -204,6 +204,73 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
 
                     </div>
                     
+
+
+                    <div class="mobile">
+
+                        
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex;">
+                        <div class="col-inner">
+                            <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                        </div>
+                        <p style="padding:1em 1em;">ABS Service and Repairs</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex; margin-top: -3em;">
+                        <div class="col-inner">
+                            <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                        </div>
+                        <p style="padding:1em 1em">Car Diagnostics</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex; margin-top: -3em;">
+                        <div class="col-inner">
+                            <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                        </div>
+                        <p style="padding:1em 1em">Vehicle maintenance</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex; margin-top: -3em;">
+                        <div class="col-inner">
+                            <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                        </div>
+                        <p style="padding:1em 1em">Car Painting</p>
+                    </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex; margin-top: -3em;">
+                            <div class="col-inner">
+                                <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                            </div>
+                            <p style="padding:1em 1em; ">
+                                Interior Customization</p>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex; margin-top: -3em;">
+                            <div class="col-inner">
+                                <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                            </div>
+                            <p style="padding:1em 1em">Wheel upgrade & stance</p>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex; margin-top: -3em;">
+                            <div class="col-inner">
+                                <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                            </div>
+                            <p style="padding:1em 1em; " >Electrical system service</p>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-4 col-sm-12" style="display: flex; margin-top: -3em;">
+                            <div class="col-inner">
+                                <input type="checkbox" name="email" class="form-control input-fill" placeholder="Email">
+                            </div>
+                            <p style="padding:1em 1em">Others</p>
+                        </div>
+
+                        
+
+
+                    </div>
+
                     <div class="form-btn">
                         <button type="submit" class="btn btn-primary">Submit Now <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
@@ -315,6 +382,29 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
             </div>
         </div>
     </div>
+
+    <style>
+        @media only screen and (max-width: 991px) {
+    .home-header-section  {
+        height: 30vh !important;
+    }
+
+    .desktop{
+        display:none !important;
+    }
+
+    .mobile{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+        }
+
+
+        .mobile{
+            display: none;
+        }
+    </style>
+
     <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
     <script src="assets/js/animations.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
