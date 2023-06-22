@@ -3889,3 +3889,15 @@ h5 {
   height: 78%;
 }
 }
+
+@media screen and (width: 428px) {
+  #book {
+line-height: 120% !important;
+width: 120% !important;
+  }
+
+  .home-header-section, .sub-header-section{
+    height: 70vh ;
+  
+  }
+}  
