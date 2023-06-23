@@ -2977,9 +2977,79 @@ h2 {
 }
 }
 
+
+@media screen and (max-width: 575px) {
+  
+
+  .main-header{
+    height: 13vh !important;
+  }
+  .home-header-section, .sub-header-section{
+    height: 60vh ;
+  
+  }
+  .banner-btn{
+    padding-top: 1em !important;
+  }
+  
+  .carousel-indicators{
+    display: none !important;
+  }
+  
+  #red-car{
+     margin-top: -2em !important;
+    
+    height: 70% !important;
+  }
+  
+  
+  .home-banner-section{
+    padding-top: 2em !important;
+  }
+  
+  .main-header{
+    height: 13vh !important;
+  }
+  
+}
+
+@media screen and(width:414){
+  #book{
+    width: 170% !important;
+    line-height: 110% !important;
+  }
+
+  
+}
+
 @media screen and (max-width: 575px) {
 .main-header {
   padding: 40px 14px 0 40px;
+}
+
+.home-banner-section{
+  padding-top: 5em !important;
+}
+
+.main-header{
+  height: 13vh !important;
+}
+.home-header-section, .sub-header-section{
+  height: 60vh ;
+
+}
+.banner-btn{
+  padding-top: 1em !important;
+}
+
+.carousel-indicators{
+  display: none !important;
+}
+
+#red-car{
+   margin-top: -2em !important;
+  
+  height: 70% !important;
 }
 
 
@@ -3092,7 +3162,7 @@ h1 {
 
 .navbar-collapse a {
   font-size: 14px;
-  line-height: 8px;
+  line-height: 17px;
 }
 .sub-header-section .sub-banner-section .banner-btn .btn-inner {
   padding: 13px 24px 15px 24px !important;
@@ -3897,7 +3967,7 @@ width: 120% !important;
   }
 
   .home-header-section, .sub-header-section{
-    height: 70vh ;
+    height: 70vh ;           
   
   }
 }  
